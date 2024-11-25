@@ -27,6 +27,11 @@ Ten projekt to część 4-dniowego wyzwania, które ma na celu wprowadzenie do t
 
 - **HTML**: Używany do stworzenia struktury strony.
 - **CSS**: Dodany dla poprawy estetyki strony.
+- - **GitHub Pages**: hosting strony
+
+## 🔗 Demo
+
+Zobacz stronę w działaniu tutaj: [Dieta dla Mózgu](https://twojanazwa.github.io/nazwa-projektu/)
 
 ## 📝 Instrukcje
 
