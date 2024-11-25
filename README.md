@@ -31,7 +31,7 @@ Ten projekt to część 4-dniowego wyzwania, które ma na celu wprowadzenie do t
 
 ## 🔗 Demo
 
-Zobacz stronę w działaniu tutaj: [Dieta dla Mózgu](https://twojanazwa.github.io/nazwa-projektu/)
+Zobacz stronę w działaniu tutaj: [Dieta dla Zdrowia]{https://emily0528.github.io/html-challenge-day-1/).
 
 ## 📝 Instrukcje
 
