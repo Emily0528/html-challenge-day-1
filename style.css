@@ -1,0 +1,168 @@
+:root {
+  --color-primary: #3b7012;
+  --color-secondary: #333;
+  --color-hover: #4caf50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+/* Styl paska przewijania */
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #ddd;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Styl ogólny */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: var(--color-secondary);
+}
+
+/* Nagłówki strony */
+header {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 20px 0 0;
+  font-size: 1.2rem;
+}
+
+/* Sekcje */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówki sekcji */
+section h2 {
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+section h3 {
+  color: #444;
+  margin-bottom: 5px;
+}
+
+/* Obrazek */
+section img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Listy */
+ul,
+ol {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+ul li,
+ol li {
+  margin-bottom: 8px;
+}
+
+/* Linki */
+a {
+  color: var(--color-hover);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Stopka sekcji z linkami */
+section ul li a {
+  display: block;
+  margin: 5px 0;
+}
+
+/* Marginesy między sekcjami */
+section + section {
+  margin-top: 40px;
+}
+
+/* Styl list uporządkowanych */
+ol {
+  counter-reset: list-counter;
+}
+
+ol li {
+  counter-increment: list-counter;
+  list-style: none;
+  position: relative;
+  padding-left: 25px;
+}
+
+ol li::before {
+  content: counter(list-counter) ".";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+/* Styl stopki */
+footer {
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px 0;
+  background: var(--color-primary);
+  color: #ddd;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
